@@ -63,16 +63,17 @@ p{
     font-size: 11px;
     line-height: 15px;
 }
-button{
-    width: 180px;
-    color: #000;
-    font-size: 12px;
-    padding: 12px 0;
-    background: #fff;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
+.button {
+         background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
 }
 .card{
     width: 200px;
@@ -103,10 +104,8 @@ button{
     transform: translateY(-10px);
 }
 h5{
-   color: #fff;
+   color:aquamarine;
     text-shadow: 0 0 5px #999;
 }
-.card p{
-     text-shadow: 0 0 5px #000;
-    font-size: 8px;
-}
+
+
